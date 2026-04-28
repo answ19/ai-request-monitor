@@ -11,7 +11,7 @@ LLM-based applications are vulnerable to prompt injection attacks, where malicio
 This project introduces a lightweight monitoring layer that analyzes prompts before they reach the model, improving safety and reliability in AI systems.
 
 ---
-![UI Demo](./screenshots/ai_request_m1.jpg)
+![UI](screenshots/ai_request_m1.jpg)
 ## Approach
 
 The system evaluates each prompt through a simple, explainable pipeline:
@@ -59,7 +59,7 @@ Response:
   "timestamp": "..."
 }
 ```
-![API Response](./screenshots/api_response_swagger.jpg)
+![API Response](screenshots/api_response_swagger.jpg)
 ## Project Structure
 
 ```text
